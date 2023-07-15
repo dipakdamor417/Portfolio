@@ -1,7 +1,7 @@
 # Portfolio
 Portfolio-Using only HTML,CSS,JS
 
-Responsive for PC only.
+! Responsive for PC only.
 <h1>Portfolio-Preview</h1>
 
 
