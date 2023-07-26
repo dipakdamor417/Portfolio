@@ -422,6 +422,7 @@ h3.profession{
 .about .about-content .personal-info .buttons .btn{
   margin-left: 50px;
   margin-right: 20px;
+  margin-top: 2em;
     
 }
 .about .about-content .skills{
@@ -758,12 +759,13 @@ padding: 0 50px;
 
 
 @media (max-width:990px){
-    .home .home-img{
-        display: block;
+    .main-content .home-img{
+        display: none;
     }
+    
     .home .home-info{
-        flex: 0 0 50%;
-        max-width: 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
         margin-bottom: 90px;
     }
      .contact .contact-info-item,
@@ -788,6 +790,7 @@ padding: 0 50px;
     }
     
 }
+
 
 @media (max-width:300px){
     .home .home-img img{
