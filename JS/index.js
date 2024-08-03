@@ -4,3 +4,11 @@ var typed =new Typed(".typing",{
     BackSpeed:60,
     loop:true
 });
+
+// new
+document.querySelectorAll('.nav-list a').forEach(link => {
+    link.addEventListener('click', function() {
+        document.querySelectorAll('.nav-list a').forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+    });
+});
